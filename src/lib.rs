@@ -22,6 +22,8 @@
 //! }
 //! ```
 
+#![deny(missing_docs)]
+
 mod types;
 mod component;
 
