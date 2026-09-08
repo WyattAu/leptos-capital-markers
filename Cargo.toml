@@ -3,14 +3,14 @@ name = "leptos-capital-markers"
 version = "0.1.0"
 edition = "2021"
 license = "MIT"
-description = "Capital city markers for leptos-leaflet — renders weather-aware markers on a Leaflet map"
+description = "Capital city markers for leptos-leaflet-wyatt — renders weather-aware markers on a Leaflet map"
 repository = "https://github.com/WyattAu/leptos-capital-markers"
 keywords = ["leptos", "leaflet", "map", "markers", "capitals"]
 categories = ["wasm", "gui", "web-programming"]
 
 [dependencies]
 leptos = { version = "0.8", default-features = false }
-leptos-leaflet = { path = "/home/wyatt/dev/src/github.com/WyattAu/leptos-leaflet" }
+leptos-leaflet-wyatt = { path = "/home/wyatt/dev/src/github.com/WyattAu/leptos-leaflet" }
 web-sys = { version = "0.3", features = [
     "HtmlElement", "Element",
 ] }
@@ -20,6 +20,6 @@ serde_json = "1"
 gloo-net = { version = "0.6", features = ["http"] }
 
 [features]
-hydrate = ["leptos/hydrate", "leptos-leaflet/hydrate"]
-ssr = ["leptos/ssr", "leptos-leaflet/ssr"]
+hydrate = ["leptos/hydrate", "leptos-leaflet-wyatt/hydrate"]
+ssr = ["leptos/ssr", "leptos-leaflet-wyatt/ssr"]
 default = ["hydrate"]

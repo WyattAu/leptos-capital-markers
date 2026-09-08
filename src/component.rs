@@ -1,7 +1,7 @@
 //! CapitalLayer Leptos component.
 
 use leptos::prelude::*;
-use leptos_leaflet::{LayerGroup, CircleMarker, CircleMarkerOptions, LatLng};
+use leptos_leaflet_wyatt::{LayerGroup, CircleMarker, CircleMarkerOptions, LatLng};
 
 use crate::types::CapitalCity;
 
