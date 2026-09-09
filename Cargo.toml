@@ -2,6 +2,7 @@
 name = "leptos-capital-markers"
 version = "0.1.0"
 edition = "2021"
+rust-version = "1.85"
 license = "MIT"
 description = "Capital city markers for leptos-leaflet-wyatt — renders weather-aware markers on a Leaflet map"
 repository = "https://github.com/WyattAu/leptos-capital-markers"
