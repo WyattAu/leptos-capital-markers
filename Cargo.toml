@@ -7,6 +7,7 @@ description = "Capital city markers for leptos-leaflet-wyatt — renders weather
 repository = "https://github.com/WyattAu/leptos-capital-markers"
 keywords = ["leptos", "leaflet", "map", "markers", "capitals"]
 categories = ["wasm", "gui", "web-programming"]
+exclude = ["/target"]
 
 [dependencies]
 leptos = { version = "0.8", default-features = false }
@@ -23,3 +24,7 @@ gloo-net = { version = "0.6", features = ["http"] }
 hydrate = ["leptos/hydrate", "leptos-leaflet-wyatt/hydrate"]
 ssr = ["leptos/ssr", "leptos-leaflet-wyatt/ssr"]
 default = ["hydrate"]
+
+[lints.clippy]
+unwrap_used = "warn"
+expect_used = "warn"
