@@ -12,7 +12,7 @@ exclude = ["/target"]
 
 [dependencies]
 leptos = { version = "0.8", default-features = false }
-leptos-leaflet-wyatt = { path = "/home/wyatt/dev/src/github.com/WyattAu/leptos-leaflet" }
+leptos-leaflet-wyatt = { version = "0.1", path = "/home/wyatt/dev/src/github.com/WyattAu/leptos-leaflet" }
 web-sys = { version = "0.3", features = [
     "HtmlElement", "Element",
 ] }
