@@ -1,7 +1,7 @@
 //! CapitalLayer Leptos component.
 
 use leptos::prelude::*;
-use leptos_leaflet_wyatt::{LayerGroup, CircleMarker, CircleMarkerOptions, LatLng};
+use leptos_leaflet_wyatt::{CircleMarker, CircleMarkerOptions, LatLng, LayerGroup};
 
 use crate::types::CapitalCity;
 
@@ -30,24 +30,49 @@ pub fn CapitalLayer(
                 // Static list of major capitals for demo
                 let caps = vec![
                     CapitalCity {
-                        name: "London".into(), country: "UK".into(), iso2: "GB".into(),
-                        lat: 51.5074, lng: -0.1278, temperature: None, weather_code: None,
+                        name: "London".into(),
+                        country: "UK".into(),
+                        iso2: "GB".into(),
+                        lat: 51.5074,
+                        lng: -0.1278,
+                        temperature: None,
+                        weather_code: None,
                     },
                     CapitalCity {
-                        name: "New York".into(), country: "USA".into(), iso2: "US".into(),
-                        lat: 40.7128, lng: -74.0060, temperature: None, weather_code: None,
+                        name: "New York".into(),
+                        country: "USA".into(),
+                        iso2: "US".into(),
+                        lat: 40.7128,
+                        lng: -74.0060,
+                        temperature: None,
+                        weather_code: None,
                     },
                     CapitalCity {
-                        name: "Tokyo".into(), country: "Japan".into(), iso2: "JP".into(),
-                        lat: 35.6762, lng: 139.6503, temperature: None, weather_code: None,
+                        name: "Tokyo".into(),
+                        country: "Japan".into(),
+                        iso2: "JP".into(),
+                        lat: 35.6762,
+                        lng: 139.6503,
+                        temperature: None,
+                        weather_code: None,
                     },
                     CapitalCity {
-                        name: "Berlin".into(), country: "Germany".into(), iso2: "DE".into(),
-                        lat: 52.5200, lng: 13.4050, temperature: None, weather_code: None,
+                        name: "Berlin".into(),
+                        country: "Germany".into(),
+                        iso2: "DE".into(),
+                        lat: 52.5200,
+                        lng: 13.4050,
+                        temperature: None,
+                        weather_code: None,
                     },
                     CapitalCity {
-                        name: "Paris".into(), country: "France".into(), iso2: "FR".into(),
-                        lat: 48.8566, lng: 2.3522, temperature: None, weather_code: None,
+                        name: "Paris".into(),
+                        country: "France".into(),
+                        iso2: "FR".into(),
+                        lat: 48.8566,
+                        lng: 2.3522,
+                        temperature: None,
+                        weather_code: None,
                     },
                 ];
                 set_sig.set(caps);

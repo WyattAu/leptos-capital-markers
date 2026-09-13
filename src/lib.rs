@@ -24,8 +24,8 @@
 
 #![deny(missing_docs)]
 
-mod types;
 mod component;
+mod types;
 
-pub use types::CapitalCity;
 pub use component::CapitalLayer;
+pub use types::CapitalCity;

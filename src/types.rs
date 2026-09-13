@@ -25,12 +25,12 @@ impl CapitalCity {
     /// Get a color based on temperature.
     pub fn temp_color(&self) -> &'static str {
         match self.temperature {
-            Some(t) if t < 5.0 => "#448aff",   // blue - cold
-            Some(t) if t < 15.0 => "#00e5ff",  // cyan - cool
-            Some(t) if t < 25.0 => "#69f0ae",  // green - mild
-            Some(t) if t < 35.0 => "#ffab00",  // amber - warm
-            Some(_) => "#ff5252",               // red - hot
-            None => "#888888",                   // gray - no data
+            Some(t) if t < 5.0 => "#448aff",  // blue - cold
+            Some(t) if t < 15.0 => "#00e5ff", // cyan - cool
+            Some(t) if t < 25.0 => "#69f0ae", // green - mild
+            Some(t) if t < 35.0 => "#ffab00", // amber - warm
+            Some(_) => "#ff5252",             // red - hot
+            None => "#888888",                // gray - no data
         }
     }
 
@@ -44,6 +44,7 @@ impl CapitalCity {
 }
 
 #[cfg(test)]
+#[allow(clippy::unwrap_used)]
 mod tests {
     use super::*;
 
