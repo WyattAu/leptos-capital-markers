@@ -5,6 +5,16 @@
 all-features = true
 
 [advisories]
+# Dev/runtime chain unmaintained advisories — same as the fleet's other
+# leptos/tier-c kits (precedent: webauthn-kit, salting).
+ignore = [
+    # paste — unmaintained; pulled via leptos 0.8 proc-macro stack. No
+    # in-graph fix (pastey is the fork leptos hasn't migrated to).
+    "RUSTSEC-2024-0436",
+    # proc-macro-error2 — unmaintained; via leptos 0.8 macro deps.
+    "RUSTSEC-2026-0173",
+]
+
 version = 2
 yanked = "deny"
 
