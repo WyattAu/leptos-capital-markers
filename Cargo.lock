@@ -749,6 +749,8 @@ dependencies = [
 [[package]]
 name = "leptos-leaflet-wyatt"
 version = "0.1.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "ea11b59bbfc48c9294942f09ceb1f608fea2ae05b4bae5ae6cb20b8c16780218"
 dependencies = [
  "js-sys",
  "leptos",
