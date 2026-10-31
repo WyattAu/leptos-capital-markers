@@ -1,6 +1,6 @@
 # leptos-capital-markers
 
-Capital city markers for [leptos-leaflet](https://github.com/WyattAu/leptos-leaflet) — renders weather-aware markers on a Leaflet map.
+Capital city markers for [leptos-leaflet](https://github.com/WyattAu/leptos-leaflet); renders weather-aware markers on a Leaflet map.
 
 ## Features
 
@@ -74,8 +74,8 @@ pub struct CapitalCity {
 leptos-capital-markers = { version = "0.1", features = ["hydrate"] }
 ```
 
-- `hydrate` (default) — Client-side hydration support
-- `ssr` — Server-side rendering support
+- `hydrate` (default); Client-side hydration support
+- `ssr`; Server-side rendering support
 
 ## License
 
