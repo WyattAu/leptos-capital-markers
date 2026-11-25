@@ -41,6 +41,26 @@ who = "Pat Hickey <phickey@fastly.com>"
 criteria = "safe-to-deploy"
 version = "1.1.4"
 
+[[audits.bytecodealliance.audits.futures]]
+who = "Joel Dice <joel.dice@gmail.com>"
+criteria = "safe-to-deploy"
+version = "0.3.31"
+
+[[audits.bytecodealliance.audits.futures]]
+who = "Pat Hickey <p.hickey@f5.com>"
+criteria = "safe-to-deploy"
+delta = "0.3.31 -> 0.3.34"
+
+[[audits.bytecodealliance.audits.futures-channel]]
+who = "Joel Dice <joel.dice@gmail.com>"
+criteria = "safe-to-deploy"
+version = "0.3.31"
+
+[[audits.bytecodealliance.audits.futures-channel]]
+who = "Pat Hickey <p.hickey@f5.com>"
+criteria = "safe-to-deploy"
+delta = "0.3.31 -> 0.3.34"
+
 [[audits.bytecodealliance.audits.futures-core]]
 who = "Pat Hickey <phickey@fastly.com>"
 criteria = "safe-to-deploy"
@@ -51,6 +71,51 @@ notes = "Unsafe used to implement a concurrency primitive AtomicWaker. Well-comm
 who = "Pat Hickey <pat@moreproductive.org>"
 criteria = "safe-to-deploy"
 delta = "0.3.28 -> 0.3.31"
+
+[[audits.bytecodealliance.audits.futures-executor]]
+who = "Joel Dice <joel.dice@gmail.com>"
+criteria = "safe-to-deploy"
+version = "0.3.31"
+
+[[audits.bytecodealliance.audits.futures-executor]]
+who = "Pat Hickey <p.hickey@f5.com>"
+criteria = "safe-to-deploy"
+delta = "0.3.31 -> 0.3.34"
+
+[[audits.bytecodealliance.audits.futures-io]]
+who = "Joel Dice <joel.dice@gmail.com>"
+criteria = "safe-to-deploy"
+version = "0.3.31"
+
+[[audits.bytecodealliance.audits.futures-io]]
+who = "Pat Hickey <p.hickey@f5.com>"
+criteria = "safe-to-deploy"
+delta = "0.3.31 -> 0.3.34"
+
+[[audits.bytecodealliance.audits.futures-macro]]
+who = "Joel Dice <joel.dice@gmail.com>"
+criteria = "safe-to-deploy"
+version = "0.3.31"
+
+[[audits.bytecodealliance.audits.futures-macro]]
+who = "Pat Hickey <p.hickey@f5.com>"
+criteria = "safe-to-deploy"
+delta = "0.3.31 -> 0.3.34"
+
+[[audits.bytecodealliance.audits.futures-sink]]
+who = "Pat Hickey <phickey@fastly.com>"
+criteria = "safe-to-deploy"
+version = "0.3.27"
+
+[[audits.bytecodealliance.audits.futures-sink]]
+who = "Pat Hickey <pat@moreproductive.org>"
+criteria = "safe-to-deploy"
+delta = "0.3.28 -> 0.3.31"
+
+[[audits.bytecodealliance.audits.futures-sink]]
+who = "Pat Hickey <p.hickey@f5.com>"
+criteria = "safe-to-deploy"
+delta = "0.3.31 -> 0.3.34"
 
 [[audits.bytecodealliance.audits.parking]]
 who = "Chris Fallin <chris@cfallin.org>"
@@ -99,12 +164,12 @@ notes = "All code written or reviewed by Manish"
 aggregated-from = "https://raw.githubusercontent.com/mozilla-firefox/firefox/main/supply-chain/audits.toml"
 
 [[audits.mozilla.wildcard-audits.utf8_iter]]
-who = "Makoto Kato <m_kato@ga2.so-net.ne.jp>"
+who = "Henri Sivonen <hsivonen@hsivonen.fi>"
 criteria = "safe-to-deploy"
 user-id = 4484 # Henri Sivonen (hsivonen)
 start = "2022-04-19"
-end = "2024-06-16"
-notes = "Maintained by Henri Sivonen who works at Mozilla."
+end = "2027-10-30"
+notes = "I wrote this crate."
 aggregated-from = "https://raw.githubusercontent.com/mozilla-firefox/firefox/main/supply-chain/audits.toml"
 
 [[audits.mozilla.audits.base16]]
@@ -161,6 +226,12 @@ who = "Alex Franchuk <afranchuk@mozilla.com>"
 criteria = "safe-to-deploy"
 delta = "0.3.31 -> 0.3.34"
 aggregated-from = "https://raw.githubusercontent.com/mozilla/cargo-vet/main/supply-chain/audits.toml"
+
+[[audits.mozilla.audits.futures-sink]]
+who = "Mike Hommey <mh+mozilla@glandium.org>"
+criteria = "safe-to-deploy"
+delta = "0.3.27 -> 0.3.28"
+aggregated-from = "https://raw.githubusercontent.com/mozilla-firefox/firefox/main/supply-chain/audits.toml"
 
 [[audits.mozilla.audits.percent-encoding]]
 who = "Valentin Gosu <valentin.gosu@gmail.com>"

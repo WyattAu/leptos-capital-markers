@@ -155,30 +155,6 @@ criteria = "safe-to-deploy"
 version = "0.5.4"
 criteria = "safe-to-deploy"
 
-[[exemptions.futures]]
-version = "0.3.34"
-criteria = "safe-to-deploy"
-
-[[exemptions.futures-channel]]
-version = "0.3.34"
-criteria = "safe-to-deploy"
-
-[[exemptions.futures-executor]]
-version = "0.3.34"
-criteria = "safe-to-deploy"
-
-[[exemptions.futures-io]]
-version = "0.3.34"
-criteria = "safe-to-deploy"
-
-[[exemptions.futures-macro]]
-version = "0.3.34"
-criteria = "safe-to-deploy"
-
-[[exemptions.futures-sink]]
-version = "0.3.34"
-criteria = "safe-to-deploy"
-
 [[exemptions.futures-task]]
 version = "0.3.34"
 criteria = "safe-to-deploy"
@@ -297,6 +273,10 @@ criteria = "safe-to-deploy"
 
 [[exemptions.leptos-capital-markers]]
 version = "0.1.0"
+criteria = "safe-to-deploy"
+
+[[exemptions.leptos-capital-markers]]
+version = "0.1.1"
 criteria = "safe-to-deploy"
 
 [[exemptions.leptos-leaflet-wyatt]]
@@ -560,10 +540,6 @@ version = "0.8.4"
 criteria = "safe-to-deploy"
 
 [[exemptions.tokio]]
-version = "1.53.1"
-criteria = "safe-to-deploy"
-
-[[exemptions.tokio]]
 version = "1.54.1"
 criteria = "safe-to-deploy"
 
@@ -668,10 +644,6 @@ version = "1.0.1"
 criteria = "safe-to-deploy"
 
 [[exemptions.yoke]]
-version = "0.8.3"
-criteria = "safe-to-deploy"
-
-[[exemptions.yoke-derive]]
 version = "0.8.3"
 criteria = "safe-to-deploy"
 
